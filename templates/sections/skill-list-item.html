@@ -1,0 +1,9 @@
+<div class="swiper-slide carousel-vertical__item">
+    <div class="image-slider bg reveal" style="background-image: url(/media/{{skill.image}})">
+        <a class="swiper-slide__link" href="{% url 'skill-detail' pk=skill.pk %}"></a>
+        <div class="carousel-vertical__caption carousel_caption_bg">
+            <h4 class="title title_h4 title_horizontal-line">{{ skill.title }}.</h4>
+        </div>
+    </div>
+</div>
+

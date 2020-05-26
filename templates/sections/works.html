@@ -1,0 +1,8 @@
+<div class="section-works">
+    {%include 'sections/projects-menu.html'%}
+    <div class="container">
+        {% for project in projects%}
+            {%include 'sections/project-item.html'%}
+        {%endfor%}
+    </div>
+</div>

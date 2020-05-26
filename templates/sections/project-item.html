@@ -1,0 +1,76 @@
+{%load static%}
+{% if forloop.counter|divisibleby:2 %}
+<div class="row work-item no-gutters os" id="#work{{forloop.counter}}">
+    <div class="col-12 col-lg-8">
+    {%if project.featured_image %}
+        <div class="work-item__image bg reveal" style="background-image: url({{project.featured_image.url}})"></div>
+        {%else%}
+        <div class="work-item__image bg reveal" style="background-image: url({% static 'images/image_01.jpg'%})"></div>
+    {%endif%}
+        <div class="vertical-text_top-left">
+            0/0{{forloop.counter}} — {{project.title}}
+        </div>
+    </div>
+    <div class="col-12 col-lg-4">
+        <div class="work-item__caption work-item__caption_imposition-left">
+            <h3 class="title title_h3 title_horizontal-line">
+                <span class="down-up-2">
+                    <span>{{project.title}}.</span>
+                </span>
+            </h3>
+            <div class="offset">
+                <p class="description">
+                    {{ project.paragraph }}
+                    <span class="down-up-2">
+                        <span>[project.Services]</span>
+                    </span>
+                </p>
+                <a 
+                    class="btn-link"  
+                    target="_blank" 
+                    href="https://[project.project_link]">
+                    <span class="down-up-2">
+                        <span>Discover
+                            <span class="btn-link__line"></span>
+                        </span>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{%else%}
+<div class="row work-item no-gutters os" id="#work{{forloop.counter}}">
+    <div class="col-12 col-lg-4 offset-lg-2 order-2 order-lg-1">
+        <div class="work-item__caption work-item__caption_imposition-right">
+            <h3 class="title title_h3 title_horizontal-line_reverse">
+                <span class="down-up-2">
+                    <span>{{project.title}}.</span>
+                </span>
+            </h3>
+            <p class="description">
+                <span class="down-up-2">
+                    <span>{{ project.paragraph }}</span>
+                </span>
+            </p>
+            <a class="btn-link" href="{% url 'project-detail' pk=project.pk %}">
+                <span class="down-up-2">
+                    <span>Discover
+                        <span class="btn-link__line"></span>
+                    </span>
+                </span>
+            </a>
+        </div>
+    </div>
+    <div class="col-12 col-lg-5 order-1 order-lg-2">
+    {%if project.featured_image %}
+        <div class="work-item__image bg reveal" style="background-image: url({{project.featured_image.url}})"></div>
+        {%else%}
+        <div class="work-item__image bg reveal" style="background-image: url({% static 'images/image_01.jpg'%})"></div>
+    {%endif%}
+        <div class="vertical-text_bottom-right">
+            0/0{{forloop.counter}} — {{project.title}}
+        </div>
+    </div>
+</div>
+{%endif%}

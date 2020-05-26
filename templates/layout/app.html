@@ -1,0 +1,27 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include 'sections/meta-data.html' %}
+    {% include 'sections/twitter-data.html' %}
+    {% include 'sections/open-graph-data.html' %}
+    {% include 'sections/favicons.html' %}
+    {% block title %}
+    {% endblock %}
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/app.css' %}" />
+</head>
+<body class="preload {%block bodyclass %} {%endblock bodyclass%} ">
+    {% include 'sections/loading-animation.html' %}
+    {% include 'sections/top.html' %}
+    {% block body %}
+
+    {% endblock body %}
+    {% include "sections/menu.html" %}
+    <script src="{% static 'vendors/jquery-3.2.1.min.js' %}"></script>
+    <script src="{% static 'vendors/plugins.js' %}"></script>
+    <script src="{% static 'scripts/app.js' %}"></script>
+    {% block morescripts %}
+      
+    {% endblock morescripts %}
+</body>
+</html>

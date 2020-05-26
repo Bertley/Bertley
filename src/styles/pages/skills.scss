@@ -1,0 +1,18 @@
+.carousel-vertical__caption {
+    @media only screen and (max-width: 580px) {
+        visibility: visible;
+    }
+}
+
+.hero.hero_decoration-points {
+    @media (max-width: 580px) {
+        height: 85vh;
+        .carousel-vertical {
+            height: 80vh;
+            .carousel-vertical__item {
+                height: 100%;
+                margin-top: 0; 
+            }
+        }
+    }
+}

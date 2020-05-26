@@ -1,0 +1,15 @@
+{%if projects%}
+<nav class="page-nav">
+    {%for project in projects%}
+        {%if forloop.first%}
+            <a class="page-nav__item active" 
+                data-scroll="#work{{forloop.counter}}" 
+                href="#work{{forloop.counter}}">{{project.title}}</a>
+        {%else%}
+            <a class="page-nav__item" 
+                data-scroll="#work{{forloop.counter}}" 
+                href="#work{{forloop.counter}}">{{project.title}}</a>
+        {%endif%}
+    {%endfor%}
+</nav>
+{%endif%}

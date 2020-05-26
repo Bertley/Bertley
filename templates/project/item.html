@@ -1,0 +1,33 @@
+{% extends 'layout/app.html' %}
+{% load static %}
+
+{% block title%} <title>{{project.title}}</title> {% endblock title%}
+
+{%block body%}
+<div class="loading animated">
+    <div class="progress-bar"></div>
+    <div class="loading-wrap animated bounceInLeft">
+        <img class="logotype" src="{% static 'images/logo.svg'%}" alt="Fotico">
+    </div>
+</div>
+
+<div class="viewer-container">
+    <div class="viewer-container__image">
+        <div class="bg reveal" style="background-image: url('/media/{{ project.featured_image }}')"></div>
+    </div>
+    <div class="viewer-container__caption">
+        <div class="viewer-container__caption-inner">
+            <h2 class="title title_h2 _title_horizontal-line">{{ project.title }}</h2>
+            <p class="paragraph">{{ project.paragraph}}</p>
+            {{ project.description | safe }}
+        </div>
+
+        <!-- Control -->
+        <div class="control-item">
+            <a href="#" class="control-item-prev">Prev</a>
+            <div class="control-item-pagination">01 / 05</div>
+            <a href="photo_viewer2.html" class="control-item-next">Next</a>
+        </div>
+    </div>
+</div>
+{%endblock body%}

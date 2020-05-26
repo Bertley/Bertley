@@ -1,0 +1,18 @@
+{% load static %}
+<div class="container-full-height container">
+    <div class="row align-items-end">
+        <div class="col-12 col-lg-6 col-xl-7 order-2 order-lg-1">
+            <div class="col__caption">
+                <h2 class="title title_h2 title_horizontal-line">{{ about.title }}</h2>
+                <p class="paragraph">{{ about.paragraph }}</p>
+            </div>
+        </div>
+
+        <div class="col-12 col-lg-6 col-xl-5 order-1 order-lg-2">
+            <div class="col__image-gutters bg reveal jarallax"
+                style="background-image: url('/media/{{ about.image }}')">
+            </div>
+        </div>
+    </div>
+    <div class="bg-text">ei.</div>
+</div>

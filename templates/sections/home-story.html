@@ -1,0 +1,13 @@
+<div class="row eighty_bg outer_top-bottom_20 os">
+    <div class="col-12 col-lg-4">
+        <h3 class="title title_h3 _title_horizontal-line-center">My story</h3>
+    </div>
+    <div class="col-12 col-lg-6">
+        {{ about.story | safe }}
+    </div>
+    <div class="floating-box" data-top="transform:translate3d(0,100%,0)"
+        data-bottom="transform:translate3d(0,0%,0)">
+        <p>My collection of delightful works /</p>
+        <a class="btn-link" href="{% url 'projects' %}">See my works —</a>
+    </div>
+</div>

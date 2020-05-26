@@ -1,0 +1,28 @@
+{%extends 'layout/app.html'%}
+{%load static%}
+{%block title%}
+<title>Skills</title>
+{%endblock title%}
+{%block body%}
+    <!-- Hero -->
+    <header class="hero hero_decoration-points">
+        <div class="carousel-vertical swiper-container">
+            <div class="swiper-wrapper">
+                {% for skill in skill_list %}
+                    {% include 'sections/skill-list-item.html' with skill=skill %}
+                {% endfor %}
+            </div>
+            
+            <!-- Pagination -->
+            <div class="swiper-pagination _bottom"></div>
+                
+            <!-- Control -->
+            <div class="swiper-control swiper-control_bottom">
+                <div class="swiper-button-next">Next</div>
+                <div class="swiper-button-prev">Prev</div>
+            </div>
+        </div>
+    </header>	
+    <!-- /Hero -->
+    {%include 'sections/footer.html'%}
+{%endblock body%}

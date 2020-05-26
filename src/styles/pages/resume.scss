@@ -1,0 +1,1822 @@
+
+@font-face {
+	font-family: "TTCommons-Bold";
+	src: url('../fonts/TTCommons-Bold.ttf') format("truetype");
+  }
+  @font-face {
+	font-family: "TTCommons-BoldItalic";
+	src: url('../fonts/TTCommons-BoldItalic.ttf') format("truetype");
+  }
+  @font-face {
+	font-family: "TTCommons-Italic";
+	src: url('../fonts/TTCommons-Italic.ttf') format("truetype");
+  }
+  @font-face {
+	font-family: "TTCommons-Regular";
+	src: url('../fonts/TTCommons-Regular.ttf') format("truetype");
+  }
+  @font-face {
+	font-family: "TTCommons-ExtraBold";
+	src: url('../fonts/TTCommons-ExtraBold.ttf') format("truetype");
+  }
+  @font-face {
+	font-family: "TTCommons-Medium";
+	src: url('../fonts/TTCommons-Medium.ttf') format("truetype");
+  }
+  
+.resume {
+width               : 100%;
+min-width           : 595px;
+height              : 100vh;
+min-height          : 1071px;
+position            : relative;
+overflow            : hidden;
+margin              : 0px;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+background-color    : rgba(255, 255, 255, 1.0);
+opacity             : 1.0;
+}
+a {
+text-decoration     : none;
+}
+div {
+-webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+width               : 100%;
+}
+.anima-full-height-a {
+height              : 100%;
+}
+div {
+-webkit-text-size-adjust: none;
+}
+.resume .education {
+background-color    : rgba(255,255,255,0.0);
+top                 : 889px;
+height              : 97px;
+width               : 507px;
+position            : absolute;
+margin              : 0;
+left                : 45px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .education .groupbody {
+background-color    : rgba(255,255,255,0.0);
+top                 : 39px;
+height              : 58px;
+width               : 209px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .education .groupbody .group {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 22px;
+width               : 186px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .education .groupbody .group .a20172018 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Bold", Helvetica, Arial, serif;
+font-size           : 11.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 13.0px;
+}
+.resume .education .groupbody .group .group7 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 22px;
+width               : 90px;
+position            : absolute;
+margin              : 0;
+left                : 96px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .education .groupbody .group .group7 .group6 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 22px;
+width               : 90px;
+position            : relative;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .education .groupbody .group .group7 .group6 .humbercollege {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Bold", Helvetica, Arial, serif;
+font-size           : 11.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 13.0px;
+}
+.resume .education .groupbody .group .group7 .group6 .webdevelopment {
+background-color    : rgba(255,255,255,0.0);
+top                 : 13px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Bold", Helvetica, Arial, serif;
+font-size           : 9.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 10.0px;
+}
+.resume .education .groupbody .groupcopy {
+background-color    : rgba(255,255,255,0.0);
+top                 : 36px;
+height              : 22px;
+width               : 209px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .education .groupbody .groupcopy .a20102015 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Bold", Helvetica, Arial, serif;
+font-size           : 11.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 13.0px;
+}
+.resume .education .groupbody .groupcopy .group7 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 22px;
+width               : 113px;
+position            : absolute;
+margin              : 0;
+left                : 96px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .education .groupbody .groupcopy .group7 .group6 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 22px;
+width               : 113px;
+position            : relative;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .education .groupbody .groupcopy .group7 .group6 .covenantuniversity {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Bold", Helvetica, Arial, serif;
+font-size           : 11.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 13.0px;
+}
+.resume .education .groupbody .groupcopy .group7 .group6 .mechanicalengineeri {
+background-color    : rgba(255,255,255,0.0);
+top                 : 13px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Bold", Helvetica, Arial, serif;
+font-size           : 9.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 10.0px;
+}
+.resume .education .groupheader {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 21px;
+width               : 506px;
+position            : absolute;
+margin              : 0;
+left                : 1px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .education .groupheader .group4copy {
+background-color    : rgba(255,255,255,0.0);
+top                 : 18px;
+height              : 3px;
+width               : 506px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .education .groupheader .group4copy .rectanglecopy {
+background-color    : rgba(59, 50, 50, 1.0);
+top                 : 0px;
+height              : 3px;
+width               : 26px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .education .groupheader .group4copy .rectanglecopy2 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 1px;
+height              : 1px;
+width               : 480px;
+position            : absolute;
+margin              : 0;
+left                : 26px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .education .groupheader .group5 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 14px;
+width               : 72px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .education .groupheader .group5 .education1 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Bold", Helvetica, Arial, serif;
+font-size           : 14.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 16.0px;
+}
+.resume .experinces {
+background-color    : rgba(255,255,255,0.0);
+top                 : 516px;
+height              : 341px;
+width               : 507px;
+position            : absolute;
+margin              : 0;
+left                : 44px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody {
+background-color    : rgba(255,255,255,0.0);
+top                 : 39px;
+height              : 302px;
+width               : 507px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group9copy {
+background-color    : rgba(255,255,255,0.0);
+top                 : 201px;
+height              : 101px;
+width               : 506px;
+position            : absolute;
+margin              : 0;
+left                : 1px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group9copy .group111 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 101px;
+width               : 506px;
+position            : relative;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group9copy .group111 .a20152017 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Bold", Helvetica, Arial, serif;
+font-size           : 11.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 13.0px;
+}
+.resume .experinces .groupbody .group9copy .group111 .group7 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 33px;
+width               : 169px;
+position            : absolute;
+margin              : 0;
+left                : 96px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group9copy .group111 .group7 .group6 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 33px;
+width               : 169px;
+position            : relative;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group9copy .group111 .group7 .group6 .nationalagencyfor {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Bold", Helvetica, Arial, serif;
+font-size           : 11.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 13.0px;
+}
+.resume .experinces .groupbody .group9copy .group111 .group7 .group6 .fullstackdeveloper {
+background-color    : rgba(255,255,255,0.0);
+top                 : 13px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Bold", Helvetica, Arial, serif;
+font-size           : 9.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 10.0px;
+}
+.resume .experinces .groupbody .group9copy .group111 .group7 .group6 .environmentdjango {
+background-color    : rgba(255,255,255,0.0);
+top                 : 24px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-BoldItalic", Helvetica, Arial, serif;
+font-size           : 9.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 10.0px;
+}
+.resume .experinces .groupbody .group9copy .group111 .group7 .group6 .environmentdjango .span1 {
+text-align          : justify;
+}
+.resume .experinces .groupbody .group9copy .group111 .group7 .group6 .environmentdjango .span2 {
+font-family         : "TTCommons-Italic", Helvetica, Arial, serif;
+text-align          : justify;
+}
+.resume .experinces .groupbody .group9copy .group111 .group10 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 35px;
+height              : 20px;
+width               : 410px;
+position            : absolute;
+margin              : 0;
+left                : 96px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group9copy .group111 .group10 .group8 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 20px;
+width               : 410px;
+position            : relative;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group9copy .group111 .group10 .group8 .oval {
+background-color    : rgba(255,255,255,0.0);
+top                 : 3px;
+height              : 3px;
+width               : 3px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group9copy .group111 .group10 .group8 .envisioningdesign {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : 401px;
+position            : absolute;
+margin              : 0;
+left                : 9px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Regular", Helvetica, Arial, serif;
+font-size           : 10.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 11.0px;
+}
+.resume .experinces .groupbody .group9copy .group111 .group10copy {
+background-color    : rgba(255,255,255,0.0);
+top                 : 57px;
+height              : 20px;
+width               : 410px;
+position            : absolute;
+margin              : 0;
+left                : 96px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group9copy .group111 .group10copy .group8 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 20px;
+width               : 410px;
+position            : relative;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group9copy .group111 .group10copy .group8 .oval {
+background-color    : rgba(255,255,255,0.0);
+top                 : 3px;
+height              : 3px;
+width               : 3px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group9copy .group111 .group10copy .group8 .singlehandedlystrat {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : 401px;
+position            : absolute;
+margin              : 0;
+left                : 9px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Regular", Helvetica, Arial, serif;
+font-size           : 10.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 11.0px;
+}
+.resume .experinces .groupbody .group9copy .group111 .group10copy2 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 79px;
+height              : 10px;
+width               : 410px;
+position            : absolute;
+margin              : 0;
+left                : 96px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group9copy .group111 .group10copy2 .group8 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 10px;
+width               : 410px;
+position            : relative;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group9copy .group111 .group10copy2 .group8 .oval {
+background-color    : rgba(255,255,255,0.0);
+top                 : 3px;
+height              : 3px;
+width               : 3px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group9copy .group111 .group10copy2 .group8 .leadateamof3dev {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : 401px;
+position            : absolute;
+margin              : 0;
+left                : 9px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Regular", Helvetica, Arial, serif;
+font-size           : 10.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 11.0px;
+}
+.resume .experinces .groupbody .group9copy .group111 .group10copy3 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 91px;
+height              : 10px;
+width               : 410px;
+position            : absolute;
+margin              : 0;
+left                : 96px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group9copy .group111 .group10copy3 .group8 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 10px;
+width               : 410px;
+position            : relative;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group9copy .group111 .group10copy3 .group8 .oval {
+background-color    : rgba(255,255,255,0.0);
+top                 : 3px;
+height              : 3px;
+width               : 3px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group9copy .group111 .group10copy3 .group8 .developingshopifyt {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : 401px;
+position            : absolute;
+margin              : 0;
+left                : 9px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Regular", Helvetica, Arial, serif;
+font-size           : 10.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 11.0px;
+}
+.resume .experinces .groupbody .group11 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 182px;
+width               : 506px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group11 .a2019present {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Bold", Helvetica, Arial, serif;
+font-size           : 11.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 13.0px;
+}
+.resume .experinces .groupbody .group11 .group7 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 33px;
+width               : 248px;
+position            : absolute;
+margin              : 0;
+left                : 96px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group11 .group7 .group6 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 33px;
+width               : 248px;
+position            : relative;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group11 .group7 .group6 .elitedigitalinc {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Bold", Helvetica, Arial, serif;
+font-size           : 11.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 13.0px;
+}
+.resume .experinces .groupbody .group11 .group7 .group6 .backenddeveloper {
+background-color    : rgba(255,255,255,0.0);
+top                 : 13px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Bold", Helvetica, Arial, serif;
+font-size           : 9.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 10.0px;
+}
+.resume .experinces .groupbody .group11 .group7 .group6 .environmentlaravel {
+background-color    : rgba(255,255,255,0.0);
+top                 : 24px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-BoldItalic", Helvetica, Arial, serif;
+font-size           : 9.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 10.0px;
+}
+.resume .experinces .groupbody .group11 .group7 .group6 .environmentlaravel .span1 {
+text-align          : justify;
+}
+.resume .experinces .groupbody .group11 .group7 .group6 .environmentlaravel .span2 {
+font-family         : "TTCommons-Italic", Helvetica, Arial, serif;
+text-align          : justify;
+}
+.resume .experinces .groupbody .group11 .group10 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 35px;
+height              : 147px;
+width               : 410px;
+position            : absolute;
+margin              : 0;
+left                : 96px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group11 .group10 .group8 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 20px;
+width               : 410px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group11 .group10 .group8 .oval {
+background-color    : rgba(255,255,255,0.0);
+top                 : 3px;
+height              : 3px;
+width               : 3px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group11 .group10 .group8 .turningbusinessreq {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : 401px;
+position            : absolute;
+margin              : 0;
+left                : 9px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Regular", Helvetica, Arial, serif;
+font-size           : 10.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 11.0px;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy {
+background-color    : rgba(255,255,255,0.0);
+top                 : 21px;
+height              : 20px;
+width               : 410px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy .oval {
+background-color    : rgba(255,255,255,0.0);
+top                 : 3px;
+height              : 3px;
+width               : 3px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy .spearheadingateam {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : 401px;
+position            : absolute;
+margin              : 0;
+left                : 9px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Regular", Helvetica, Arial, serif;
+font-size           : 10.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 11.0px;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy .spearheadingateam .span1 {
+text-align          : justify;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy .spearheadingateam .span2 {
+font-family         : "TTCommons-Bold", Helvetica, Arial, serif;
+text-align          : justify;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy .spearheadingateam .span3 {
+text-align          : justify;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy .spearheadingateam .span4 {
+font-family         : "TTCommons-Bold", Helvetica, Arial, serif;
+text-align          : justify;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy .spearheadingateam .span5 {
+text-align          : justify;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy .spearheadingateam .span6 {
+font-family         : "TTCommons-Bold", Helvetica, Arial, serif;
+text-align          : justify;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy .spearheadingateam .span7 {
+text-align          : justify;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy2 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 42px;
+height              : 20px;
+width               : 410px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy2 .oval {
+background-color    : rgba(255,255,255,0.0);
+top                 : 3px;
+height              : 3px;
+width               : 3px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy2 .conceptualizeddes {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : 401px;
+position            : absolute;
+margin              : 0;
+left                : 9px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Regular", Helvetica, Arial, serif;
+font-size           : 10.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 11.0px;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy2 .conceptualizeddes .span1 {
+text-align          : justify;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy2 .conceptualizeddes .span2 {
+font-family         : "TTCommons-Bold", Helvetica, Arial, serif;
+text-align          : justify;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy2 .conceptualizeddes .span3 {
+text-align          : justify;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy3 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 63px;
+height              : 20px;
+width               : 410px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy3 .oval {
+background-color    : rgba(255,255,255,0.0);
+top                 : 3px;
+height              : 3px;
+width               : 3px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy3 .designingsqlquerie {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : 401px;
+position            : absolute;
+margin              : 0;
+left                : 9px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Regular", Helvetica, Arial, serif;
+font-size           : 10.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 11.0px;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy5 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 84px;
+height              : 10px;
+width               : 410px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy5 .oval {
+background-color    : rgba(255,255,255,0.0);
+top                 : 3px;
+height              : 3px;
+width               : 3px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy5 .developingalgorithm {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : 401px;
+position            : absolute;
+margin              : 0;
+left                : 9px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Regular", Helvetica, Arial, serif;
+font-size           : 10.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 11.0px;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy4 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 95px;
+height              : 10px;
+width               : 410px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy4 .oval {
+background-color    : rgba(255,255,255,0.0);
+top                 : 3px;
+height              : 3px;
+width               : 3px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy4 .developingtemplates {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : 401px;
+position            : absolute;
+margin              : 0;
+left                : 9px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Regular", Helvetica, Arial, serif;
+font-size           : 10.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 11.0px;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy7 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 106px;
+height              : 20px;
+width               : 410px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy7 .oval {
+background-color    : rgba(255,255,255,0.0);
+top                 : 3px;
+height              : 3px;
+width               : 3px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy7 .conceptualizeddev {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : 401px;
+position            : absolute;
+margin              : 0;
+left                : 9px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Regular", Helvetica, Arial, serif;
+font-size           : 10.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 11.0px;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy10 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 127px;
+height              : 20px;
+width               : 410px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy10 .oval {
+background-color    : rgba(255,255,255,0.0);
+top                 : 3px;
+height              : 3px;
+width               : 3px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupbody .group11 .group10 .group8copy10 .developediosandad {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : 401px;
+position            : absolute;
+margin              : 0;
+left                : 9px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Regular", Helvetica, Arial, serif;
+font-size           : 10.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 11.0px;
+}
+.resume .experinces .groupheader {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 21px;
+width               : 506px;
+position            : absolute;
+margin              : 0;
+left                : 1px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupheader .group4copy {
+background-color    : rgba(255,255,255,0.0);
+top                 : 18px;
+height              : 3px;
+width               : 506px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupheader .group4copy .rectanglecopy {
+background-color    : rgba(59, 50, 50, 1.0);
+top                 : 0px;
+height              : 3px;
+width               : 26px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupheader .group4copy .rectanglecopy2 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 1px;
+height              : 1px;
+width               : 480px;
+position            : absolute;
+margin              : 0;
+left                : 26px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupheader .group5 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 14px;
+width               : 78px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .experinces .groupheader .group5 .experience {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Bold", Helvetica, Arial, serif;
+font-size           : 14.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 16.0px;
+}
+.resume .skills {
+background-color    : rgba(255,255,255,0.0);
+top                 : 359px;
+height              : 125px;
+width               : 507px;
+position            : absolute;
+margin              : 0;
+left                : 44px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .skills .groupbody {
+background-color    : rgba(255,255,255,0.0);
+top                 : 39px;
+height              : 86px;
+width               : 507px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .skills .groupbody .managementskillsc {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : 255px;
+position            : absolute;
+margin              : 0;
+left                : 254px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Bold", Helvetica, Arial, serif;
+font-size           : 11.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 13.0px;
+}
+.resume .skills .groupbody .managementskillsc .span1 {
+text-align          : justify;
+}
+.resume .skills .groupbody .managementskillsc .span2 {
+font-family         : "TTCommons-Regular", Helvetica, Arial, serif;
+text-align          : justify;
+}
+.resume .skills .groupbody .webtechnologiespy {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Bold", Helvetica, Arial, serif;
+font-size           : 11.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 13.0px;
+}
+.resume .skills .groupbody .webtechnologiespy .span1 {
+text-align          : justify;
+}
+.resume .skills .groupbody .webtechnologiespy .span2 {
+font-family         : "TTCommons-Regular", Helvetica, Arial, serif;
+text-align          : justify;
+}
+.resume .skills .groupbody .frameworksdjango {
+background-color    : rgba(255,255,255,0.0);
+top                 : 15px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Bold", Helvetica, Arial, serif;
+font-size           : 11.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 13.0px;
+}
+.resume .skills .groupbody .frameworksdjango .span1 {
+text-align          : justify;
+}
+.resume .skills .groupbody .frameworksdjango .span2 {
+font-family         : "TTCommons-Regular", Helvetica, Arial, serif;
+text-align          : justify;
+}
+.resume .skills .groupbody .databasemysqlpos {
+background-color    : rgba(255,255,255,0.0);
+top                 : 30px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Bold", Helvetica, Arial, serif;
+font-size           : 11.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 13.0px;
+}
+.resume .skills .groupbody .databasemysqlpos .span1 {
+text-align          : justify;
+}
+.resume .skills .groupbody .databasemysqlpos .span2 {
+font-family         : "TTCommons-Regular", Helvetica, Arial, serif;
+text-align          : justify;
+}
+.resume .skills .groupbody .versioninggit {
+background-color    : rgba(255,255,255,0.0);
+top                 : 45px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Bold", Helvetica, Arial, serif;
+font-size           : 11.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 13.0px;
+}
+.resume .skills .groupbody .versioninggit .span1 {
+text-align          : justify;
+}
+.resume .skills .groupbody .versioninggit .span2 {
+font-family         : "TTCommons-Regular", Helvetica, Arial, serif;
+text-align          : justify;
+}
+.resume .skills .groupbody .deploymentheroku {
+background-color    : rgba(255,255,255,0.0);
+top                 : 60px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Bold", Helvetica, Arial, serif;
+font-size           : 11.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 13.0px;
+}
+.resume .skills .groupbody .deploymentheroku .span1 {
+text-align          : justify;
+}
+.resume .skills .groupbody .deploymentheroku .span2 {
+font-family         : "TTCommons-Regular", Helvetica, Arial, serif;
+text-align          : justify;
+}
+.resume .skills .groupbody .paymentgatewaysst {
+background-color    : rgba(255,255,255,0.0);
+top                 : 75px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Bold", Helvetica, Arial, serif;
+font-size           : 11.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 13.0px;
+}
+.resume .skills .groupbody .paymentgatewaysst .span1 {
+text-align          : justify;
+}
+.resume .skills .groupbody .paymentgatewaysst .span2 {
+font-family         : "TTCommons-Regular", Helvetica, Arial, serif;
+text-align          : justify;
+}
+.resume .skills .groupheader {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 21px;
+width               : 506px;
+position            : absolute;
+margin              : 0;
+left                : 1px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .skills .groupheader .group4copy {
+background-color    : rgba(255,255,255,0.0);
+top                 : 18px;
+height              : 3px;
+width               : 506px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .skills .groupheader .group4copy .rectanglecopy {
+background-color    : rgba(59, 50, 50, 1.0);
+top                 : 0px;
+height              : 3px;
+width               : 26px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .skills .groupheader .group4copy .rectanglecopy2 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 1px;
+height              : 1px;
+width               : 480px;
+position            : absolute;
+margin              : 0;
+left                : 26px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .skills .groupheader .group5 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 14px;
+width               : 41px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .skills .groupheader .group5 .skills1 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Bold", Helvetica, Arial, serif;
+font-size           : 14.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 16.0px;
+}
+.resume .summary {
+background-color    : rgba(255,255,255,0.0);
+top                 : 183px;
+height              : 118px;
+width               : 507px;
+position            : absolute;
+margin              : 0;
+left                : 44px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .summary .groupbody {
+background-color    : rgba(255,255,255,0.0);
+top                 : 40px;
+height              : auto;
+width               : 507px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Regular", Helvetica, Arial, serif;
+font-size           : 13.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+letter-spacing      : -0.42px;
+line-height         : 15.0px;
+}
+.resume .summary .groupheader {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 21px;
+width               : 506px;
+position            : absolute;
+margin              : 0;
+left                : 1px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .summary .groupheader .group4copy {
+background-color    : rgba(255,255,255,0.0);
+top                 : 18px;
+height              : 3px;
+width               : 506px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .summary .groupheader .group4copy .rectanglecopy {
+background-color    : rgba(59, 50, 50, 1.0);
+top                 : 0px;
+height              : 3px;
+width               : 26px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .summary .groupheader .group4copy .rectanglecopy2 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 1px;
+height              : 1px;
+width               : 480px;
+position            : absolute;
+margin              : 0;
+left                : 26px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .summary .groupheader .group5 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 14px;
+width               : 158px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .summary .groupheader .group5 .professionalsummary {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Bold", Helvetica, Arial, serif;
+font-size           : 14.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 16.0px;
+}
+.resume .info {
+background-color    : rgba(255,255,255,0.0);
+top                 : 49px;
+height              : 89px;
+width               : 263px;
+position            : absolute;
+margin              : 0;
+left                : 45px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .info .name {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-ExtraBold", Helvetica, Arial, serif;
+font-size           : 25.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 29.0px;
+}
+.resume .info .title {
+background-color    : rgba(255,255,255,0.0);
+top                 : 29px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Regular", Helvetica, Arial, serif;
+font-size           : 13.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 15.0px;
+}
+.resume .info .address {
+background-color    : rgba(255,255,255,0.0);
+top                 : 61px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Medium", Helvetica, Arial, serif;
+font-size           : 9.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+line-height         : 10.0px;
+}
+.resume .info .phone {
+background-color    : rgba(255,255,255,0.0);
+top                 : 81px;
+height              : 8px;
+width               : 52px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .info .phone .phonesolid {
+background-color    : rgba(255,255,255,0.0);
+top                 : 1px;
+height              : 6px;
+width               : 6px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .info .phone .a6472199006 {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 12px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Medium", Helvetica, Arial, serif;
+font-size           : 8.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+letter-spacing      : -0.22px;
+line-height         : 9.0px;
+}
+.resume .info .email {
+background-color    : rgba(255,255,255,0.0);
+top                 : 81px;
+height              : 8px;
+width               : 70px;
+position            : absolute;
+margin              : 0;
+left                : 62px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .info .email .path {
+background-color    : rgba(255,255,255,0.0);
+top                 : 1px;
+height              : 6px;
+width               : 6px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .info .email .eedialugmailcom {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 12px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Medium", Helvetica, Arial, serif;
+font-size           : 8.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+letter-spacing      : -0.22px;
+line-height         : 9.0px;
+}
+.resume .info .websites {
+background-color    : rgba(255,255,255,0.0);
+top                 : 81px;
+height              : 8px;
+width               : 121px;
+position            : absolute;
+margin              : 0;
+left                : 142px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .info .websites .linksolid {
+background-color    : rgba(255,255,255,0.0);
+top                 : 1px;
+height              : 6px;
+width               : 6px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .info .websites .linksolid .shape {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : 6px;
+width               : 6px;
+position            : absolute;
+margin              : 0;
+left                : 0px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+}
+.resume .info .websites .githubcombertley {
+background-color    : rgba(255,255,255,0.0);
+top                 : 0px;
+height              : auto;
+width               : auto;
+position            : absolute;
+margin              : 0;
+left                : 12px;
+transform           : rotate(0deg);
+opacity             : 1.0;
+font-family         : "TTCommons-Medium", Helvetica, Arial, serif;
+font-size           : 8.0px;
+color               : rgba(59, 50, 50, 1.0);
+text-align          : left;
+letter-spacing      : -0.22px;
+line-height         : 9.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+opacity             : 0;
+display             : block;
+-webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+-moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+-o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+opacity             : 1;
+display             : block;
+-webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+-moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+-o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+-webkit-animation-delay: 0;
+-moz-animation-delay: 0;
+-o-animation-delay  : 0;
+animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+0%
+
+{
+opacity: 0;
+}
+
+
+100%
+
+{
+opacity: 1;
+}
+}
+@-moz-keyframes anima-reveal {
+0%
+
+{
+opacity: 0;
+}
+
+
+100%
+
+{
+opacity: 1;
+}
+}
+@-o-keyframes anima-reveal {
+0%
+
+{
+opacity: 0;
+}
+
+
+100%
+
+{
+opacity: 1;
+}
+}
+@keyframes anima-reveal {
+0%
+
+{
+opacity: 0;
+}
+
+
+100%
+
+{
+opacity: 1;
+}
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+visibility          : hidden;
+pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+pointer-events      : auto;
+visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+cursor              : pointer;
+}
+.anima-word-break {
+overflow-wrap       : break-word;
+word-wrap           : break-word;
+word-break          : break-all;
+word-break          : break-word;
+}

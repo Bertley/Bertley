@@ -1,0 +1,9 @@
+{% extends 'layout/app.html' %}
+{% load static %}
+
+{% block title%} <title>{{skill.title}}</title> {% endblock title%}
+
+{%block body%}
+    {% include 'sections/skill-description.html' %}
+    {% include 'sections/works.html' with projects=skill.projects.all %}
+{%endblock body%}

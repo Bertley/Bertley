@@ -1,0 +1,32 @@
+<div class="row outer_top-bottom_20 os">
+    <div class="col-12">
+        <h3 class="title title_h3 _title_horizontal-line-center">My career / experience</h3>
+    </div>
+    <div class="col-12">
+        <table class="table table_v1">
+            <thead>
+                <tr>
+                    <th>Organisation</th>
+                    <th>Specialization</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for experience in about.experiences %}
+                <tr>
+                    <td data-th="Organisation">{{ experience.organisation }}</td>
+                    <td data-th="Specialization">{{ experience.specialization }}</td>
+                    <td data-th="Year">
+                        {{ experience.start }} - 
+                        {% if experience.present %}
+                        <span>Present</span>
+                        {% else %}
+                        <span>{{ experience.end }}</span>
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
