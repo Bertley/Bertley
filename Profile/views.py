@@ -7,29 +7,25 @@ def home(request):
     about['paragraph'] = 'I love solving problems and how time seems to slow down and everything else melts away when i am locked into a specific problem. I like to call this period "The flow"'
     about['image'] = "about/intro.jpg"
     about['story'] = """
-        <p>I have more than three years of experience as a full stack developer and most recently as a
-            native cross-platform app developer. So far i have successful launched projects to production using programming
-            languages like Python, JavaScript, Dart, Ruby on Rails with frameworks like Django, React, React-native,
-            Flutter, Shopify's Liquid etc.</p>
-        <p>I believe that the ability to continously test the boundaries of my knowledge and skills as a developer is paramount to
-            improving what i am able to offer my employers. That's why i religiously cultivate the habit of personally
-            buying and consuming courses online to learn the latest and best technologies out there, taking on
-            projects that require me to learn and pick up new skills on the go!</p>
-        <p>So far in my career as a developer, every i have worked with and for knows me as someone who isn't afraid to take on any
-            task, regardless of the complexity and still get the job done. I have a background in Mechanical
-            Engineering which accounts for my logical aproach to challenges, I am great at breaking down
-            complex situations into smaller manageable components, It is what has consistently helped improve the quality of apps i develop, increase my
-            efficiency and significantly improve the productivity of my employers.</p>
-        <p>I love software development and all that it comes with. It's something that i would do even if i wasn't
-            getting paid to do it</p>
+        <p>I have more than three years of experience as a full stack developer and most recently as a native cross-platform app developer. I have actively contributed to a handful of production projects using programming languages like JavaScript, Python, and Dart with frameworks like React-native, React, Django, Flutter, Shopify's Liquid, etc</p>
+        <p>I believe that the ability to continuously test the boundaries of my knowledge and skills as a software engineer is paramount to improving what I can offer my employers. That's why I religiously cultivate the habit of personally consuming courses, and articles online to learn the latest and best technologies out there, and taking on projects that require me to pick up new skills on the go!</p>
+        <p>I am not afraid to take on a complex task thanks to a background in Mechanical Engineering which accounts for my logical approach to challenges, I am great at breaking down complex situations into smaller manageable components, It is what has consistently improved the quality of apps I develop, increased my efficiency and significantly improved the productivity of my employers.</p>
+        <p>I love software development and all that it comes with, I am more than grateful to be able to do this every day, and I'm excited about what the future holds</p>
     """
     experiences = [
+        {
+            'organisation' : 'Bunch Studios', 
+            'specialization' : "Software Engineer", 
+            'start': 2020, 
+            'end': None,
+            'present': True
+        },
         {
             'organisation' : 'Elite Digital', 
             'specialization' : "Full Stack Developer", 
             'start': 2019, 
-            'end': None,
-            'present': True
+            'end': 2020,
+            'present': False
         },
         {
             'organisation' : 'Bertley Design', 
