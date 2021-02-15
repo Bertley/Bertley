@@ -66,7 +66,7 @@ def home(request):
     about['country'] = "Canada"
     about['linkedin'] = "https://www.linkedin.com/in/ehinomenidialu/"
     about['github'] = "https://github.com/bertley/"
-    about['instagram'] = "https://www.instagram.com/bertleydesign/"
+    about['instagram'] = "https://www.instagram.com/ehisidialu/"
     about['email'] = "info@edialu.com"
 
     context['about'] = about
