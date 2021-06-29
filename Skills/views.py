@@ -19,7 +19,7 @@ class ListView(ListView):
 
 class DetailView(DetailView): 
     model = Skill
-
+    print('test')
     def get_context_data(self, **kwargs): 
         context = super().get_context_data(**kwargs)
         return context
