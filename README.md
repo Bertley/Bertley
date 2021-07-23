@@ -1,4 +1,4 @@
-# Hello World, I'm Ehis Idialu
+# I'm Ehis Idialu
 
 ## I'm a, Developer
 
