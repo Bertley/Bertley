@@ -23,8 +23,8 @@ I am not afraid to take on complex tasks. I am great at breaking down difficult 
             'present': True
         },
         {
-            'organisation': 'Shopify Partnet',
-            'specialization': "Consultant",
+            'organisation': 'Freelance',
+            'specialization': "Software Engineer",
             'start': 2019,
             'end': None,
             'present': True
