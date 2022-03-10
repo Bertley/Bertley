@@ -1,9 +1,9 @@
 # Hi, I'm Ehis Idialu
 
-## I'm a, Developer
+## I'm a, Technical Lead
 
-- I’m currently learning everything
-- 2021 Goals: Contribute more to Open Source projects
+- I’m currently building amazing products 
+- 2022 Goals: Ship [Upcentrale](https://www.instagram.com/upcentrale)
 - Fun fact: I love to dj and design clothes
 
 ### Connect with me:
