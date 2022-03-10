@@ -4,7 +4,7 @@
 
 - I’m currently learning everything
 - 2021 Goals: Contribute more to Open Source projects
-- Fun fact: I love to dj and play soccer
+- Fun fact: I love to dj and design clothes
 
 ### Connect with me:
 
