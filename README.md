@@ -4,7 +4,7 @@
 
 - I’m currently building amazing products 
 - 2022 Goals: Ship [Upcentrale](https://www.instagram.com/upcentrale)
-- Fun fact: I love to dj and design clothes
+- Fun fact: I also love to dj and design
 
 ### Connect with me:
 
